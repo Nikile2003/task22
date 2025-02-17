@@ -1,0 +1,128 @@
+/* General Styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+h1, h2 {
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Task Filter */
+.task-filter {
+  margin-bottom: 20px;
+}
+
+.task-filter label {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.task-filter select {
+  padding: 5px 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Task Form */
+.task-form {
+  margin-bottom: 40px;
+}
+
+.task-form input, .task-form textarea, .task-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-color: #45a049;
+}
+
+/* Task List Table */
+.task-table-container {
+  margin-top: 40px;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.task-table th, .task-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-table th {
+  background-color: #f8f9fa;
+  color: #4CAF50;
+}
+
+.task-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.task-table select {
+  padding: 5px 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-table button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-table button:hover {
+  background-color: #0056b3;
+}
+
+.button-edit {
+  background-color: #ffc107;
+}
+
+.button-edit:hover {
+  background-color: #e0a800;
+}
+
+.button-delete {
+  background-color: #dc3545;
+}
+
+.button-delete:hover {
+  background-color: #c82333;
+}
+
+.ml-4 {
+  margin-left: 20px;
+}
